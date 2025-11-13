@@ -1,7 +1,11 @@
 h2 {
-  color: #fe520c;
+  color: #00ff41;
   font-size: 20px;
   font-family: arial;
+}
+
+body {
+  background-color: #0a1628;
 }
 
 a {
@@ -9,12 +13,13 @@ a {
 }
 
 .white-card {
-  background: white;
+  background: #1a3a52;
   padding: 30px;
   border-radius: 4px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  box-shadow: 0 10px 30px rgba(0, 255, 65, 0.15);
   margin: 5px auto;
   text-align: center;
+  color: #e0e0e0;
 }
 
 .img-circle {
@@ -24,7 +29,7 @@ a {
 }
 
 .shadowed {
-  box-shadow: 5px 5px 3px black;
+  box-shadow: 0 8px 20px rgba(0, 255, 65, 0.25);
 }
 
 .container {
@@ -33,23 +38,23 @@ a {
 }
 
 .btn-blue {
-  background-color: lightblue;
+  background: linear-gradient(90deg, #001a4d, #00cc33);
   border-radius: 5px;
   color: white;
   padding: 8px 16px;
 }
 
 .btn-blue:hover {
-  background-color: rgb(4, 4, 121);
+  background: linear-gradient(90deg, #00264d, #00ff41);
 }
 
 i {
-  color: darkgreen;
+  color: #00ff41;
   font-size: 50px;
 }
 
 i:hover{
-  color: black;
+  color: #00ccff;
 }
 
 .list-inline > li{
